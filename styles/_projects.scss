@@ -1,0 +1,23 @@
+.projects {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2rem;
+    min-height: 90vh;
+    @include flex(space-between, center, row);
+    text-align: center;
+    flex-wrap: wrap;
+    h2 {
+        margin: 5rem 0rem 2rem;
+    }
+}
+
+.card {
+    flex: 1 1 40rem;
+    height: 60rem;
+    margin-bottom: 2rem;
+    @include flex(space-around, center, column);
+    img {
+        cursor: pointer;
+        max-width: 60rem;
+    }
+}
