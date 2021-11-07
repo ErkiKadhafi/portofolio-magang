@@ -142,7 +142,7 @@ nav ul {
   background: -webkit-gradient(linear, left top, right top, from(#3bd39f), to(#38a4d3));
   background: linear-gradient(left, #3bd39f, #38a4d3);
   background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: transparent;
   display: inline-block;
 }
 
